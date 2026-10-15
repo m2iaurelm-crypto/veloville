@@ -1,0 +1,61 @@
+fichier,identifiant,colonne,valeur,motif,decision
+trajets.csv,T480073,trajet_id,T480073,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T480078,trajet_id,T480078,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T480288,trajet_id,T480288,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T480293,trajet_id,T480293,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T480596,trajet_id,T480596,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T480847,trajet_id,T480847,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T480945,trajet_id,T480945,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T481625,trajet_id,T481625,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T481636,trajet_id,T481636,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T481776,trajet_id,T481776,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T481834,trajet_id,T481834,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T481927,trajet_id,T481927,Doublon strict sur l'identifiant trajet_id,rejet
+trajets.csv,T480152,depart_horodatage,NULL,Horodatage de départ absent ou invalide,rejet
+trajets.csv,T480379,depart_horodatage,NULL,Horodatage de départ absent ou invalide,rejet
+trajets.csv,T481592,depart_horodatage,NULL,Horodatage de départ absent ou invalide,rejet
+trajets.csv,T481885,depart_horodatage,NULL,Horodatage de départ absent ou invalide,rejet
+trajets.csv,T481958,depart_horodatage,NULL,Horodatage de départ absent ou invalide,rejet
+trajets.csv,T480596,duree_secondes,-120,"Durée de trajet absente, négative ou nulle (RG4)",rejet
+trajets.csv,T480712,duree_secondes,-45,"Durée de trajet absente, négative ou nulle (RG4)",rejet
+trajets.csv,T480899,duree_secondes,-45,"Durée de trajet absente, négative ou nulle (RG4)",rejet
+trajets.csv,T480924,duree_secondes,-120,"Durée de trajet absente, négative ou nulle (RG4)",rejet
+trajets.csv,T481067,duree_secondes,0,"Durée de trajet absente, négative ou nulle (RG4)",rejet
+trajets.csv,T481074,duree_secondes,0,"Durée de trajet absente, négative ou nulle (RG4)",rejet
+trajets.csv,T481274,duree_secondes,0,"Durée de trajet absente, négative ou nulle (RG4)",rejet
+trajets.csv,T481688,duree_secondes,-120,"Durée de trajet absente, négative ou nulle (RG4)",rejet
+trajets.csv,T481846,duree_secondes,-45,"Durée de trajet absente, négative ou nulle (RG4)",rejet
+trajets.csv,T480030,station_depart / station_arrivee,"dep: S105, arr: S999",Station de départ ou d'arrivée inexistante dans le référentiel (RG2/RG3),rejet
+trajets.csv,T480034,station_depart / station_arrivee,"dep: S007, arr: S999",Station de départ ou d'arrivée inexistante dans le référentiel (RG2/RG3),rejet
+trajets.csv,T480235,station_depart / station_arrivee,"dep: S073, arr: S999",Station de départ ou d'arrivée inexistante dans le référentiel (RG2/RG3),rejet
+trajets.csv,T480858,station_depart / station_arrivee,"dep: S091, arr: S999",Station de départ ou d'arrivée inexistante dans le référentiel (RG2/RG3),rejet
+trajets.csv,T481464,station_depart / station_arrivee,"dep: S110, arr: S999",Station de départ ou d'arrivée inexistante dans le référentiel (RG2/RG3),rejet
+trajets.csv,T481717,station_depart / station_arrivee,"dep: S119, arr: S999",Station de départ ou d'arrivée inexistante dans le référentiel (RG2/RG3),rejet
+incidents.csv,I2026-0028,date_resolution / date_signalement,"sig: 2026-07-23 18:00, res: 2026-07-22 06:00",Date de résolution antérieure à la date de signalement (RG8),rejet
+incidents.csv,I2026-0124,date_resolution / date_signalement,"sig: 2026-07-11 13:00, res: 2026-07-11 09:00",Date de résolution antérieure à la date de signalement (RG8),rejet
+incidents.csv,I2026-0178,date_resolution / date_signalement,"sig: 2026-07-16 17:00, res: 2026-07-14 19:00",Date de résolution antérieure à la date de signalement (RG8),rejet
+incidents.csv,I2026-0011,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0018,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0031,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0032,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0035,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0039,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0047,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0048,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0050,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0053,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0054,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0056,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0072,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0085,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0087,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0089,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0092,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0108,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0115,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0116,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0127,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0136,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0148,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0172,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
+incidents.csv,I2026-0180,technicien,NULL,Technicien absent sur un incident pris en charge (RG8),normalisation_avertissement
